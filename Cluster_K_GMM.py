@@ -1,7 +1,7 @@
 '''
 Created on Sep 23, 2016
 
-@author: dell
+@author: ankita
 '''
 import random
 import math

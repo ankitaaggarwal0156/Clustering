@@ -1,24 +1,7 @@
 # Clustering
 K-means and GMM
 
-To implement the K-Means algorithm and Expectation Maximization Algorithm for clustering using a Gaussian Mixture Model. 
-
-PROJECT DESCRIPTION
-Programming language used :       Python
-Data Structure            :       Lists, Matrix
-File Name                 :       Cluster_K_GMM.py
-Inputs                    :       clusters.txt, set of 2dimensional - 150 data points
-Output                    :       KMeans – centroid of each cluster, and its length
-                                  GMM – Mean, Amplitude, Co-Variance of the probability distribution
-
-Implementation:
-
-kmeans(): recursive function, that is used as the caller for :
--	creating clusters, based on the mean value, randomly generated
--	calculating mean for the new clusters
--	checking if the old mean is the same as new mean of cluster
--	if the means are same, therefore, no further cluster modifications are required and we have reached the optimum solution
--	if means are not same, kmeans performs the computation again, with the new mean values.
-
-
-
+Implement the K-means algorithm AND the Expectation Maximization algorithm for clustering using a Gaussian Mixture Model (GMM).
+Run your algorithms on the data file "clusters.txt" using K, the number of clusters, set to 3. 
+Report the centroid of each cluster in K-means; and report the mean, amplitude and covariance matrix of each Gaussian in GMM.
+The data file contains 150 2D points. Each row in the file contains the coordinates of a single point.
